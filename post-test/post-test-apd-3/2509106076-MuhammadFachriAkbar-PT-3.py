@@ -4,6 +4,10 @@ nim_terdaftar = "2509106076"
 nama_pengguna = input("Masukkan Nama: ")
 nim_pengguna = input("Masukkan NIM: ")
 
+pilihan_paket = input("Masukkan pilihan paket (1/2/3/4): ")
+biaya_langganan = 1500000
+
+
 if nama_pengguna == nama_terdaftar and nim_pengguna == nim_terdaftar:
     print("\nLogin berhasil! Silakan pilih paket langganan:\n")
     print("1. Paket Bronze (Biaya admin 1%) - Akses dasar ke lagu-lagu populer")
@@ -11,8 +15,7 @@ if nama_pengguna == nama_terdaftar and nim_pengguna == nim_terdaftar:
     print("3. Paket Gold (Biaya admin 5%) - Akses lagu premium, playlist kustom, dan mode offline")
     print("4. Paket Platinum (Biaya admin 7%) - Semua fitur termasuk konten eksklusif artis\n")
 
-    pilihan_paket = input("Masukkan pilihan paket (1/2/3/4): ")
-    biaya_langganan = 1500000
+
 
     if pilihan_paket == "1":
         total_bayar = biaya_langganan + biaya_langganan * 1/100
