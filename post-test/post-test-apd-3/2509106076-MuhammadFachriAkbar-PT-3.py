@@ -7,7 +7,10 @@ nim_pengguna = input("Masukkan NIM: ")
 pilihan_paket = input("Masukkan pilihan paket (1/2/3/4): ")
 biaya_langganan = 1500000
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7aff1da644eecd38133779c23aa539c938b80151
 if nama_pengguna == nama_terdaftar and nim_pengguna == nim_terdaftar:
     print("\nLogin berhasil! Silakan pilih paket langganan:\n")
     print("1. Paket Bronze (Biaya admin 1%) - Akses dasar ke lagu-lagu populer")
