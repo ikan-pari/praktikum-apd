@@ -17,7 +17,7 @@ while percobaan < 3 and login_sukses == False:
         print("Login Gagal! Percobaan ke-", percobaan)
 
 if login_sukses == False:
-    print("\nLogin ditolak. Anda telah gagal login sebanyak 3 kali.")
+    print("\nLogin ditolak. Anda telah gagal login sebanyak 3 kali, Coba lagi nanti.")
 else:
     pilihan = 0
     while pilihan != 4:
