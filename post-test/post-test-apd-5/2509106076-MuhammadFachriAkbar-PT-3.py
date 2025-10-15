@@ -11,7 +11,6 @@ mainan = [
     ["Iron Man Mark 85", "Action Figure", "Rp350000", "Bekas"]
 ]
 
-# Registrasi
 while True:
     print("Silakan Registrasi!")
     username = input("Masukkan username: ")
@@ -34,7 +33,6 @@ while True:
         print("Registrasi berhasil!\n")
         break
 
-# Login
 login = 0
 while login < 3:
     print("=============== LOGIN ===============")
@@ -72,11 +70,8 @@ while login < 3:
 
             elif menu == "2":
                 print("\n=== Koleksi Mainan ===")
-                if len(mainan) == 0:
-                    print("Belum ada data mainan.\n")
-                else:
-                    for i in range(len(mainan)):
-                        print(f"{i+1}. {mainan[i][0]} | {mainan[i][1]} | {mainan[i][2]} | {mainan[i][3]}")
+                for i in range(len(mainan)):
+                    print(f"{i+1}. {mainan[i][0]} | {mainan[i][1]} | {mainan[i][2]} | {mainan[i][3]}")
                 print("")
 
             elif menu == "3":
