@@ -7,7 +7,7 @@
 # menkrep
 # print(menkrep)
 
-anakB2 = ['Zuhri', 'Pahri', 'Bang Pernan', ['Udin'], 'Asep']
+anakB2 = ['Zuhri', 'Pahri', 'Bang Pernan', 'Udin', 'Asep']
 print(anakB2)
 del anakB2[2]
 print(anakB2)
